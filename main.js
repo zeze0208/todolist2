@@ -77,7 +77,7 @@ function render() {
 
   for (let i = 0; i < list.length; i++) {
     if (list[i].isComplete == true) {
-      resultHTML += `<div class="task" syle="backgroundcolor: #e0e0e0;">
+      resultHTML += `<div class="task" style="background-color: #e0e0e0;">
                     <div class="task-done">${list[i].taskContent}</div>
                     ${buttonBox(list[i].id, 'refresh')}
                     </div>`;
